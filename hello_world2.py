@@ -1,5 +1,5 @@
-name = input("WHAT IS YOUR NAME? ")
+name = input("What is your name? ".upper())
 
-print("HELLO, " + name.upper())
+print("Hello, ".upper() + name.upper())
 charnumber = len(name)
-print("YOUR NAME HAS " + str(charnumber) + " LETTERS IN IT! AWESOME!")
+print("Your name has ".upper() + str(charnumber) + " letters in it! Awesome!".upper())
