@@ -8,6 +8,7 @@ while True:
             print("$" + str(total + (total *.15)))
         if level == "bad":
             print("$" + str(total + (total *.10)))
+        break
     except ValueError:
         print("Please rate based on what is in the parentheses")
 
