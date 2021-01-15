@@ -1,6 +1,6 @@
 while True:
     try:
-        total = int(input('Total bill amount? $'))
+        total = float(input('Total bill amount? $'))
         level = input('Level of service? (good, fair, bad) ')
         if level == "good":
             print("$" + str(total + (total *.20)))
